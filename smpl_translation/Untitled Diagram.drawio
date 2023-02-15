@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T04:20:26.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="Fz_M86MtSh39uVTo4H0H" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T06:34:10.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="YCRK1Zwsa0q9Xh8drjcD" version="20.8.20" type="github">
   <diagram name="Page-1" id="ytpurdZG77Twx_C-d4Ho">
-    <mxGraphModel dx="835" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1002" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="imZYXL4SkDYVXG_4C4io-42" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;Applying rules to C codes&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontSize=17;gradientColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="100" width="257.5" height="225" as="geometry" />
+        </mxCell>
         <mxCell id="imZYXL4SkDYVXG_4C4io-26" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;Reading Coccinelle Rules&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontSize=17;gradientColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingBottom=0;" vertex="1" parent="1">
           <mxGeometry x="40" width="380" height="370" as="geometry" />
         </mxCell>
@@ -34,11 +37,11 @@
         <mxCell id="imZYXL4SkDYVXG_4C4io-8" value="Rule n" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="70" y="265" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="imZYXL4SkDYVXG_4C4io-10" value="Split rule &lt;br&gt;using regex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="imZYXL4SkDYVXG_4C4io-10" value="Split rules&lt;br&gt;using regex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="167.5" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="imZYXL4SkDYVXG_4C4io-11" value="72 coccinelle files&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="335" width="100" height="30" as="geometry" />
+        <mxCell id="imZYXL4SkDYVXG_4C4io-11" value="72 coccinelle files&lt;br&gt;(expected.cocci)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="imZYXL4SkDYVXG_4C4io-12" value="269 single rules&lt;br&gt;from&lt;br&gt;71 coccinelle files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="314" y="221" width="100" height="29" as="geometry" />
@@ -91,6 +94,9 @@
         <mxCell id="imZYXL4SkDYVXG_4C4io-37" value="Rule 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="596.5" y="179" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="imZYXL4SkDYVXG_4C4io-38" target="imZYXL4SkDYVXG_4C4io-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="imZYXL4SkDYVXG_4C4io-38" value="C before, C after" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="592.5" y="175" width="60" height="30" as="geometry" />
         </mxCell>
@@ -100,11 +106,53 @@
             <mxPoint x="481" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="imZYXL4SkDYVXG_4C4io-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Note: I only apply a rule to a c code that reside in the same folder where the original coccinelle files reside&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="400" y="115" width="209" height="30" as="geometry" />
+        <mxCell id="imZYXL4SkDYVXG_4C4io-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Note: I only apply a rule to a c code that resides in the same folder where the coccinelle file (expected.cocci) is located&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="456.75" y="350" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="imZYXL4SkDYVXG_4C4io-41" value="2596 before and after pairs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="220" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1177.5" y="269" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-53" value="Change 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1197.5" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-54" value="Change 2" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1197.5" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-56" value="Change n" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1197.5" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-57" value=".&lt;br&gt;.&lt;br&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1197.5" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-58" value="Rule 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-69" value="1 &quot;C after&quot; can contain either one or multiple changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="230" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-76" value="Postprocessing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="167.25" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-81" value="Rule 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="869" y="182.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-82" value="Rule 1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="866" y="178.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-84" value="Triplets" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="862" y="174.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-85" value="3650 triplets of &lt;br&gt;(rule, code before, code after)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="804" y="219" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imZYXL4SkDYVXG_4C4io-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="imZYXL4SkDYVXG_4C4io-76" target="imZYXL4SkDYVXG_4C4io-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="663" y="200" as="sourcePoint" />
+            <mxPoint x="730" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
