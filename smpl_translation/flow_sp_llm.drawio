@@ -302,6 +302,21 @@
         <mxCell id="QleuZ_sIqg2X-7CIl005-137" value="Final Semantic Patch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0080f0;" vertex="1" parent="1">
           <mxGeometry x="-10.25" y="1265" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-139" value="Cover case for really unique diff-&amp;gt; put in the a new cluster&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-265.25" y="440" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-140" value="keep in mind: can we generate the sp directly here?&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-143" value="add check if the ar do not cover diff from other ARs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-144" value="add check if the ar do not cover diff from other ARs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-145" value="the ar should fully disjoint or subset of each other&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="79.75" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
