@@ -210,6 +210,9 @@
         <mxCell id="QleuZ_sIqg2X-7CIl005-102" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="19.75" y="618" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-104" target="QleuZ_sIqg2X-7CIl005-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QleuZ_sIqg2X-7CIl005-104" value="Update cluster" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="626" width="100" height="50" as="geometry" />
         </mxCell>
@@ -221,13 +224,83 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QleuZ_sIqg2X-7CIl005-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QleuZ_sIqg2X-7CIl005-111">
+        <mxCell id="QleuZ_sIqg2X-7CIl005-113" value="4. Infer metavariable kinds in each cluster" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280.25" y="870" width="490.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-114" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-270" y="920" width="70" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-115" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="QleuZ_sIqg2X-7CIl005-114">
+          <mxGeometry x="10" width="40" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-116" value="All diffs in the cluster i" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QleuZ_sIqg2X-7CIl005-114">
+          <mxGeometry y="54" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-117" target="QleuZ_sIqg2X-7CIl005-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-117" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;" vertex="1" parent="1">
+          <mxGeometry x="-257.5" y="1030" width="31.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-118" value="Abstract Representation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-119" value="Infer metavariable kinds" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-160.25" y="970" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-115" target="QleuZ_sIqg2X-7CIl005-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-122" target="QleuZ_sIqg2X-7CIl005-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-122" value="Generate Semantic patches" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10.250000000000004" y="970" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-119" target="QleuZ_sIqg2X-7CIl005-122">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="651" as="sourcePoint" />
+            <mxPoint x="-78.50999999999999" y="1063" as="sourcePoint" />
+            <mxPoint x="-10" y="1005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QleuZ_sIqg2X-7CIl005-111" value="Updated Cluster i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0080f0;" vertex="1" parent="1">
-          <mxGeometry x="344" y="631" width="70" height="40" as="geometry" />
+        <mxCell id="QleuZ_sIqg2X-7CIl005-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-117" target="QleuZ_sIqg2X-7CIl005-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-126" value="Semantic Patch for cluster i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0080f0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="975" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-128" value="5. Assembles semantic patches from all clusters into 1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="1140" width="490.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-129" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-275" y="1180" width="70" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-130" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="QleuZ_sIqg2X-7CIl005-129">
+          <mxGeometry x="10" width="40" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-131" value="Semantic Patches" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QleuZ_sIqg2X-7CIl005-129">
+          <mxGeometry y="54" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-132" target="QleuZ_sIqg2X-7CIl005-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-132" value="Test coverage" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-160.25" y="1178" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-130" target="QleuZ_sIqg2X-7CIl005-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-134" target="QleuZ_sIqg2X-7CIl005-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-134" value="Assemble semantic patches" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-160.25" y="1260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QleuZ_sIqg2X-7CIl005-131" target="QleuZ_sIqg2X-7CIl005-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QleuZ_sIqg2X-7CIl005-137" value="Final Semantic Patch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0080f0;" vertex="1" parent="1">
+          <mxGeometry x="-10.25" y="1265" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
